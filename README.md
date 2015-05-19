@@ -1,4 +1,5 @@
-http://bit.do/enavarrocudotfile
+# Install
+curl -O https://raw.githubusercontent.com/enavarrocu/dotfiles/master/.dotfiles
 
 # Mathias’s dotfiles
 
