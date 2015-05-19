@@ -35,11 +35,15 @@ install midnight-commander
 install ntfs-3g
 install osxfuse
 install p7zip
+install pv
 install rdfind
+install screen
 install sshfs
 install ssh-copy-id
 install tree
-install zsh				  
+install unrar
+install wget
+install zsh
 install zsh-completions
 
 # Remove outdated versions from the cellar
