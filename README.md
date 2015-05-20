@@ -1,5 +1,5 @@
 # Install
-curl -O https://raw.githubusercontent.com/enavarrocu/dotfiles/master/.dotfiles
+curl -L https://raw.githubusercontent.com/enavarrocu/dotfiles/master/.dotfiles | sh
 
 # Mathias’s dotfiles
 
