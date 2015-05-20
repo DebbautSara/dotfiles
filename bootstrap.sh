@@ -2,9 +2,7 @@
 
 cd "$(dirname "${BASH_SOURCE}")";
 
-git pull origin zshmigration;
-
-git checkout zshmigration;
+git pull origin master;
 
 function doIt() {
     rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" \
