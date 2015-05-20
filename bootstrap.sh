@@ -7,7 +7,14 @@ git pull origin master;
 function doIt() {
     rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" \
 	--exclude "README.md" --exclude "LICENSE-MIT.txt" -avh --no-perms . ~;
-    source ~/.bash_profile;
+    brew install wget
+    brew install curl
+    brew install zsh
+    
+    curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+    
+    cp ~/.omzsh/.zshrc ~/.zshrc
+    . ~/.zshrc
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
