@@ -1,8 +1,8 @@
 # Install native apps
 # Usage: `brew bundle Caskfile`
 
-install caskroom/cask/brew-cask
-tap caskroom/versions
+brew install caskroom/cask/brew-cask
+brew tap caskroom/versions
 
 brew cask install alfred 2> /dev/null
 brew cask install android-file-transfer 2> /dev/null
