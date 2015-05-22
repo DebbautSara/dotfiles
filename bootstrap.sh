@@ -10,11 +10,11 @@ function doIt() {
     brew install wget
     brew install curl
     brew install zsh
-    
-    curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
-    
+
+    sudo echo "/usr/local/bin/zsh" >> /etc/shells
+    curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | zsh
     cp ~/.omzsh/.zshrc ~/.zshrc
-    . ~/.zshrc
+    zsh ~/.zshrc
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
