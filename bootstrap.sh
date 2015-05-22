@@ -11,7 +11,8 @@ function doIt() {
     brew install curl
     brew install zsh
 
-    sudo echo "/usr/local/bin/zsh" >> /etc/shells
+    sudo -s 'echo "/usr/local/bin/zsh" >> /etc/shells'
+
     curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | zsh
     cp ~/.omzsh/.zshrc ~/.zshrc
     zsh ~/.zshrc
