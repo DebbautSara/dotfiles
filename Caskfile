@@ -17,7 +17,6 @@ brew cask install diffmerge 2> /dev/null
 brew cask install dropbox 2> /dev/null
 brew cask install evernote 2> /dev/null
 brew cask install firefox 2> /dev/null
-brew cask install gas-mask 2> /dev/null`
 brew cask install gas-mask 2> /dev/null
 brew cask install gfxcardstatus 2> /dev/null
 brew cask install google-chrome 2> /dev/null
@@ -26,7 +25,6 @@ brew cask install google-drive 2> /dev/null
 brew cask install google-hangouts 2> /dev/null
 brew cask install ifunbox 2> /dev/null
 brew cask install imageoptim 2> /dev/null
-brew cask install intellij-idea 2> /dev/null
 brew cask install intellij-idea 2> /dev/null
 brew cask install iterm2 2> /dev/null
 brew cask install java 2> /dev/null
