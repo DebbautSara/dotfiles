@@ -3,6 +3,6 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 brew install git
 
-git clone https://github.com/enavarrocu/dotfiles.git
+git clone https://github.com/debbautsara/dotfiles.git
 cd dotfiles
 source bootstrap.sh
